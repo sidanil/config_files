@@ -1,0 +1,26 @@
+Host jetson
+  HostName 156.56.158.111
+  User orin
+
+Host v-gpu3
+     Hostname v-gpu3.victor.futuresystems.org
+     User sidanil
+
+Host v-gpu4
+     Hostname v-gpu4.victor.futuresystems.org
+     User sidanil
+
+Host v-gpu2
+     Hostname v-gpu1.victor.futuresystems.org
+     User sidanil
+
+Host v-gpu1
+     Hostname v-gpu1.victor.futuresystems.org
+     User sidanil
+
+Host bigred200
+     Hostname bigred200.uits.iu.edu
+     user sidanil
+Host bonobo
+  Hostname bonobo.luddy.indiana.edu
+  user sidanil
