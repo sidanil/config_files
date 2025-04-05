@@ -24,3 +24,19 @@ Host bigred200
 Host bonobo
   Hostname bonobo.luddy.indiana.edu
   user sidanil
+
+Host v-019
+     Hostname v-019.victor.futuresystems.org
+     user sidanil
+
+Host v-020
+     Hostname v-020.victor.futuresystems.org
+     user sidanil
+
+Host v-021
+     Hostname v-021.victor.futuresystems.org
+     user sidanil
+
+Host v-022
+     Hostname v-022.victor.futuresystems.org
+     user sidanil
