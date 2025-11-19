@@ -1,20 +1,28 @@
 ;;; tooling.el --- Completion, discovery, company, search -*- lexical-binding: t; -*-
 
-(use-package ivy
-  :diminish
-  :bind (("C-s" . swiper))
-  :config
-  (ivy-mode 1))
+;; NOT USING ivy Recently. 
 
-(use-package which-key
-  :init (which-key-mode)
-  :diminish which-key-mode)
+;; (use-package ivy
+;;   :diminish
+;;   :bind (("C-s" . swiper))
+;;   :config
+;;   (ivy-mode 1))
 
-(use-package company
-  :hook (prog-mode . company-mode))
+;; (use-package which-key
+;;   :init (which-key-mode)
+;;   :diminish which-key-mode)
 
-(use-package flycheck
-  :init (global-flycheck-mode))
+;; (use-package company
+;;   :hook (prog-mode . company-mode))
+
+;; (use-package flycheck
+;;   :init (global-flycheck-mode))
+
+
+;; Show occurence count in  I-search 
+(setq isearch-lazy-count t)
+(setq lazy-count-prefix-format "%s/%s ")
+(setq lazy-count-suffix-format " [%s/%s]")
 
 
 
